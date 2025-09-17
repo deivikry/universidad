@@ -1,0 +1,43 @@
+@echo vamos a eliminar el árbol y algunos archivos.
+@echo off
+pause
+cd directorio_principal
+
+cd documentos
+cd cartas
+rd angular.txt
+cd..
+cd informes
+rd 2024 2023
+cd..
+cd propuestas
+rd sitioweb.txt
+cd..
+cd..
+cd imagenes 
+cd personales
+rd react.txt
+cd..
+rd vacaciones trabajo personales
+cd..
+cd programas 
+cd javascript
+rd angular.txt
+attrib -h vue.txt
+rd vue.txt
+cd..
+rd python  java javascript
+
+
+cd..
+rd documentos imagenes programas archivos_temporales
+cd..
+rd directorio_principal 
+cd..
+
+
+
+@echo  realizando procesos
+@echo off
+pause
+

@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Casos de Uso MuscleTan" id="muscle-tan-uc">
+    <mxGraphModel dx="1226" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_cliente" value="Cliente" style="shape=umlActor;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="20" y="160" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" value="Administrador" style="shape=umlActor;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="20" y="420" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_trabajador" value="Trabajador" style="shape=umlActor;verticalAlign=top;align=center;" parent="1" vertex="1">
+          <mxGeometry x="20" y="660" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_registro" value="Registrarse / Iniciar Sesión" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_servicio" value="Solicitar servicio de bronceado" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-120" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_agendar" value="Agendar cita" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_pago" value="Realizar pago en línea" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_confirmacion" value="Recibir confirmación" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_insumos" value="Gestionar insumos" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_trabajadores" value="Gestionar trabajadores" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_servicios" value="Gestionar servicios" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dashboard" value="Visualizar dashboard" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_clientes" value="Gestionar clientes" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_consulta" value="Consultar agenda" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="340" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_registrar" value="Registrar servicio realizado" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="340" y="610" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_reportar" value="Reportar consumo de insumos" style="ellipse;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="340" y="690" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" parent="1" source="actor_cliente" target="uc_registro" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" parent="1" source="actor_cliente" target="uc_servicio" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" parent="1" source="actor_cliente" target="uc_agendar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" parent="1" source="actor_cliente" target="uc_pago" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" parent="1" source="actor_cliente" target="uc_confirmacion" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" parent="1" source="actor_admin" target="uc_insumos" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" parent="1" source="actor_admin" target="uc_trabajadores" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" parent="1" source="actor_admin" target="uc_servicios" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" parent="1" source="actor_admin" target="uc_dashboard" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" parent="1" source="actor_admin" target="uc_clientes" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" parent="1" source="actor_trabajador" target="uc_consulta" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" parent="1" source="actor_trabajador" target="uc_registrar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" parent="1" source="actor_trabajador" target="uc_reportar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

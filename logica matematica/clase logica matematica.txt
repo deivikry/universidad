@@ -1,0 +1,35 @@
+leer manual de convivencia, dia viernes entregar el acuerdo del jueves 12 de febrero
+
+
+
+2.polinomios y ecuaciones con polinomios (examen quiz taller)
+
+3.teoria de conjuntos
+
+40% examen
+30% quiz
+30% taller
+
+clase 1
+
+sistemas numéricos 
+base decimal 0 a 9
+base octal del 0 al 7
+ base hexadecimal 0 al 9 y los números 10=a 12=c 15=f
+binarios 0 y 1
+
+
+lenguaje de alto nivel
+ipv6 una dirección difícil de localizar la cual no cambia 
+ipv4 es mas fácil de cambiar 
+
+
+base binaria(2) base decimal(10)
+
+10101=
+se empieza contando de derecha a izquierda
+el primer numero se nombra como 2 elevado a la 0 y asi sucesivamente hasta el ultimo numero
+
+cuando el numero es un 0 se tacha o no se tiene en cuenta, mienstras que los 1 se hace la debida operación
+(se hace la potencia,  y se suman los resultados)
+

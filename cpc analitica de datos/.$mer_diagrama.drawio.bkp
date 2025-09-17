@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Modelo ER MuscleTan" id="muscle-tan-er">
+    <mxGraphModel dx="1080" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Entidades -->
+        <mxCell id="ent_cliente" value="Cliente" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_admin" value="Administrador" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_trabajador" value="Trabajador" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_servicio" value="Servicio" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_insumo" value="Insumo" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_pago" value="Pago" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_cita" value="Cita" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ent_detalle" value="Detalle_Insumo" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Relaciones -->
+        <mxCell id="rel_cliente_cita" edge="1" parent="1" source="ent_cliente" target="ent_cita">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_cita_servicio" edge="1" parent="1" source="ent_cita" target="ent_servicio">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_servicio_pago" edge="1" parent="1" source="ent_servicio" target="ent_pago">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_servicio_trabajador" edge="1" parent="1" source="ent_servicio" target="ent_trabajador">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_servicio_detalle" edge="1" parent="1" source="ent_servicio" target="ent_detalle">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_detalle_insumo" edge="1" parent="1" source="ent_detalle" target="ent_insumo">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="rel_admin_servicio" edge="1" parent="1" source="ent_admin" target="ent_servicio">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
