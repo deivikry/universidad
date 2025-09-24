@@ -1,8 +1,10 @@
 from sqlalchemy import Column, Integer, String
 from database import Base
 
-class tipoi_d(Base):
-    __tablename__ = 'tipoid'
+#definicion del modelo de la tabla tipoidprueba
+class tipo_id(Base):
+    __tablename__ = 'tipoidprueba'
     
-    id_tipoid = Column(Integer(11), primary_key=True, index=True)
+    #definicion de las columnas de la tabla
+    id_tipoid = Column(Integer, primary_key=True, index=True)
     descripcion = Column(String(100), nullable=False)
